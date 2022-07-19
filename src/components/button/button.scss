@@ -3,7 +3,7 @@ $danger : #e6a23c;
 $success : #00d100;
 $warning : #f56c6c;
 
-.yang-button{
+.l-button{
   border-width : 1px;
   border-style: solid;
   border-color : #dcdfe6;
@@ -15,7 +15,7 @@ $warning : #f56c6c;
   color: #606266;
   cursor: pointer;
 
-  + .yang-button{
+  + .l-button{
     margin-left : 14px;
     margin-bottom: 10px;
   }
@@ -29,24 +29,24 @@ $warning : #f56c6c;
   .icon-prefix { margin-right: 10px; }
   .icon-suffix { margin-left: 10px; }
 }
-.yang-button-medium{
+.l-button-medium{
   height : 38px;
 }
-.yang-button-small{
+.l-button-small{
   padding: 0 15px;
   height: 32px;
   font-size: 12px;
 }
-.yang-button-mini{
+.l-button-mini{
   padding: 0 15px;
   height: 28px;
   font-size: 12px;
 }
-.yang-button[disabled]{
+.l-button[disabled]{
   cursor: not-allowed;
   opacity: 0.5;
 }
-.yang-button-primary{
+.l-button-primary{
   background-color: $primary;
   border-color : $primary;
   color : #fff;
@@ -55,7 +55,7 @@ $warning : #f56c6c;
     color : $primary;
   }
 }
-.yang-button-success{
+.l-button-success{
   background-color : $success;
   border-color :  $success;
   color : #fff;
@@ -64,7 +64,7 @@ $warning : #f56c6c;
     color : $success;
   }
 }
-.yang-button-danger{
+.l-button-danger{
   background-color : $danger;
   border-color :$danger;
   color : #fff;
@@ -73,7 +73,7 @@ $warning : #f56c6c;
     color : $danger;
   }
 }
-.yang-button-warning{
+.l-button-warning{
   background-color: $warning;
   border-color : $warning;
   color : #fff;
@@ -86,7 +86,7 @@ $warning : #f56c6c;
 /*** 圆角 */
 .is-round{border-radius: 100px;}
 /**块级按钮*/
-.yang-button-block{
+.l-button-block{
   display: block;
   width: 100%;
   padding: 0;

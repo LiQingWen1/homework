@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <yangButton>默认按钮</yangButton>
-    <yangButton type="primary"  >成功按钮</yangButton>
-    <yangButton type="danger" >危险按钮</yangButton>
-    <yangButton type="warning" >警告按钮</yangButton>
+    <lButton>默认按钮</lButton>
+    <lButton type="primary"  >成功按钮</lButton>
+    <lButton type="danger" >危险按钮</lButton>
+    <lButton type="warning" >警告按钮</lButton>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
     }
   },
   components: {
-    yangButton: () => import('../components/button/index.vue')
+    lButton: () => import('../components/button/index.vue')
   },
   methods: {
     handleSubmit () {
